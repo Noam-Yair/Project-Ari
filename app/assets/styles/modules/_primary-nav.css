@@ -1,0 +1,44 @@
+.primary-nav{
+    @import url(https://fonts.googleapis.com/css?family=Oswald);
+
+    ul{
+        margin:0;
+        padding: 0;
+        position: absolute;
+        height: 62px;
+        background-image: url(assets/images/green-background.png);
+        left: 500px;
+        top: 0px;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    li{
+        list-style: none;
+        float: left;
+        color: yellow; 
+        font-family: Oswald;
+        text-decoration: none;
+        left: 6.66%;
+        right: 6.72%;
+        top: 10.13%;
+        bottom: 25.32%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.05em;
+    
+
+    a{
+        color: white;
+        text-decoration: none;
+        padding-right: 0.3rem;
+        padding-left: 0.3rem;
+    }
+}
+
+}
