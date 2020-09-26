@@ -2,8 +2,9 @@
 
     @import url(https://fonts.googleapis.com/css?family=Oswald);
 
+
     font-family: Oswald;
-    background-image: url(assets/images/green-background.png);
+    background-image: url("assets/images/green-background.png");
     width: 100%;
     height: 903px;
     top: 0;
