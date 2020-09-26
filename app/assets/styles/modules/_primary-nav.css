@@ -4,13 +4,20 @@
     ul{
         margin:0;
         padding: 0;
-        position: absolute;
+        position: sticky;
         height: 62px;
         background-image: url(assets/images/green-background.png);
-        left: 500px;
+        //right: 100%;
+        //float: right;
+        //transform: translateX(-50%);
         top: 0px;
         width: 100%;
         background-repeat: no-repeat;
+        display: none;
+
+        @mixin atSmall{
+            display: block;
+        }
     }
 
     li{
